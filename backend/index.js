@@ -111,7 +111,8 @@ app.use((req, res, next) => {
 });
 app.get('/', (req, res) => {
 	res.status(200).json({
-    stat
+    status: 200,
+    message: "Server"
   })
 });
 
