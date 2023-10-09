@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #000000;
+  @apply select-none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.nego {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.75rem;
+}
+
+.b {
+  background-image: url("https://cdna.artstation.com/p/assets/images/images/035/311/830/large/sierra-a-3-fullsize.jpg?1614647487&");
+}
+
+.n {
+  @apply flex flex-col items-center justify-center text-gray-800;
+}
